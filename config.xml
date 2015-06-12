@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.miramar.demo.avastin_app"
+        version   = "0.0.1">
+
+
+        <name>Calculadora Avastin</name>
+
+        <description>Calculadora de Avastin </description>
+
+        <author email="smartinez@miramar-outsourcing.com.mx" href="http://miramar-outsourcing.com.mx">
+            Desarrollador Jorge Dalmendray
+        </author>
+
+        <!--<content src="index.html" />
+        <access origin="*" />-->
+
+
+
+        <gap:platform name="android" />
+       
+<gap:plugin name="com.dawsonloudon.videoplayer" version="1.0.0" />
+
+
+        
+        <preference name="phonegap-version" value="3.5.0" />
+        <preference name="orientation" value="portrait" />
+        <preference name="fullscreen" value="true" />
+
+
+        
+
+    	
+    	
+
+
+
+         <icon src="iconos/icon.png" />	
+
+        <!-- Retina ANDROID -->
+         <platform name="android">
+              <icon src="iconos/android/ldpi.png" density="ldpi" />
+              <icon src="iconos/android/mdpi.png" density="mdpi" />
+              <icon src="iconos/android/hdpi.png" density="hdpi" />
+              <icon src="iconos/android/xhdpi.png" density="xhdpi" />
+        </platform>
+
+
+
+
+
+    	
+    	
+    
+
+
+
+
+    	
+    	
+    	
+    	
+
+
+
+
+    </widget>
